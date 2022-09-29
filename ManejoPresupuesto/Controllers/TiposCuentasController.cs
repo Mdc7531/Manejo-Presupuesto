@@ -45,7 +45,7 @@ namespace ManejoPresupuesto.Controllers
                 return View(tipoCuenta);
             }
 
-            repositorioTiposCuentas.Crear(tipoCuenta);
+            //repositorioTiposCuentas.Crear(tipoCuenta);
 
             tipoCuenta.UsuarioId = servicioUsuarios.ObtenerUsuarioId();
 
